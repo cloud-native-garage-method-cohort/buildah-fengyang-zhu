@@ -1,4 +1,4 @@
-FROM quay.io/zfy_bigdata/app
+FROM quay.io/jeffdean/node-alpine:latest
 COPY . /app/
 WORKDIR /app
 RUN npm install --silent
